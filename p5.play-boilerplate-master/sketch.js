@@ -118,5 +118,6 @@ function mouseReleased(){
 function keyPressed(){
   if(keyCode==32){
     slingshot.attach(polygon1.body)
+    gameState="onSling"
   }
 }
